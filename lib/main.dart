@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         title: 'Namer App',
         theme: ThemeData(
           useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 0, 155, 202)),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
         ),
         home: MyHomePage(),
       ),
@@ -74,7 +74,7 @@ class MyHomePage extends StatelessWidget {
                   label: Text('Like'),
                 ),
                 SizedBox(width: 10),
-                
+
                 ElevatedButton(
                   onPressed: () {
                     appState.getNext();
